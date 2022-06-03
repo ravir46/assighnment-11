@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Tiro+Devanagari+Hindi&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+.header{
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(43, 37, 37);
+
+   }
+    .container{
+    max-width: 1940px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin: 0 30px ;
+    } 
+    .headerl{
+        display: flex;
+        flex: 1;
+        
+        align-items: center;
+      
+    }
+    .log1{
+        width: 50px;
+        height: 50px;
+        background-color: lightseagreen;
+        border-radius: 50px;
+        position: relative;
+        }
+
+.log2{
+        width: 25px ;
+    height: 25px;
+    background-color: rgb(22,22,22);
+    border-radius: 25px;
+    
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    }
+    
+    .article p{
+        color: white;
+    }
+
+    a{
+        text-decoration: none;
+        padding: 20px;
+        color: white;
+    }
+    .class1 > h3{
+        margin-left: 70px;
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(29, 202, 159);
+        padding: 0;
+        
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+     p{
+        margin-left: 50px;
+        font-size: large;
+        font-weight: lighter;
+        color: rgb(216, 31, 31);
+        word-spacing: 1px;
+        justify-content: center;
+        line-height: 40px;
+        text-align: ce;
+    }
+    
+    .class1 > h2{
+        margin-left: 70px;
+        font-size: 50px;
+        
+        color: rgb(231, 235, 234);
+       
+        font-family: 'Open Sans', sans-serif;
+         }
+         #dev{
+             color: rgb(26, 186, 207);
+         }
+    .head>img{
+    position: relative;
+}
+.photo{
+    margin:0px auto;
+    }
+
+.section1{
+    display: flex;
+    /*justify-content: space-around;*/
+    align-items: center;
+    background-color: rgb(34, 30, 30);
+    height: 38rem;
+  
+}
+.Contact-btn{
+    background-color:lightseagreen ;
+   padding: 10px;
+   margin-left: 150px;
+ }
+#img1{
+    margin-left: 80px;
+    border-radius: 50px;
+    
+}
+
+.button{
+    margin-left: 180px;
+    border-color: rgb(17, 236, 145);
+    padding: 10px;
+    border-width: 3px;
+    font-size: x-large;
+    color: rgb(208, 208, 224);
+    border-style: solid;
+    background-color: rgb(27, 24, 24);
+    margin-top: 20px;
+}
+
+#devlop{
+color: aquamarine;
+}
+/* section2................................................................................................... */
+.about{
+    
+}
+.abt{
+ display: flex;
+ margin-top:15px;
+ margin-right: 50px;
+ /* justify-content: space-between; */
+ /* justify-content: center; */
+ display: inline-flex;
+ margin-left: 180px;
+}
+
+
+#ram{
+    width: 300px;
+    height: 350px;
+    margin-top: 40px;
+    margin-right: 80px;
+    
+}
+.abt-me{
+    margin-top: 50px;
+    /* margin-right: 250px; */
+    font-family: 'Open Sans', sans-serif;
+    color: brown;
+    margin-left: 70px;
+
+}
+.phone{
+    margin-top: 20px;
+}
+/* <!-- section3.......................................................................section3 --> */
+.our-service{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+    
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    margin-left: 180px;
+    justify-content:space-between;
+    width: 80%;
+    position: relative;
+   
+   }
+p{
+    color: black;
+}
+.card {
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+.cardd{
+    background-color: rgb(241, 225, 225);
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.hed{
+    font-family: 'Open Sans', sans-serif;
+    color: aqua;
+}
+span{
+    color: black;
+}
+/* <!-- section4.......................................................................section4 --> */
+.sect4{
+    color: rgb(231, 242, 245);
+    background-image:url(https://cdn.pixabay.com/photo/2021/02/15/18/44/shiva-6018805_960_720.jpg );
+    height: 500px;
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 100%, 80% 89%, 0 100%, 0% 20%);
+}
+.row{
+    text-align: center;
+    font-family:'Open Sans', sans-serif ;
+  
+    }
+      
+#sec{
+    
+    width: 100%;
+    height: 400px;
+    }
+    .sect12{
+        color: white;
+        font-size: x-large;
+    }
+.sect3{
+    margin-left: 180px;
+    border: none;
+    padding: 10px;
+   margin-top: 20px;
+    font-size: large;
+    color: rgb(25, 25, 27);
+    
+    background-color: rgb(53, 162, 189);
+    margin-bottom: 10px;
+}
+    
+    .sect2{
+     margin-top: 200px;
+     color: white;
+     font-size: xx-large;
+     
+    }
+    /* <!-- section5.......................................................................section5 --> */
+    .sect6{
+        text-align: center;
+        color: rgb(17, 100, 100);
+        font-family:'Open Sans', sans-serif ;
+    }
+    .sect5{
+        text-align: center;
+        color: rgb(49, 43, 34);
+    }
+    #lady{
+        margin-left: 45%;
+    }
+    /* <!-- section6.......................................................................section6 --> */
+    .work{
+        margin-top: 5%;
+        text-align: center;
+        color: aqua;
+        font-family:'Open Sans', sans-serif ;
+    }
+    .work1{
+        text-align: center;
+        font-family:'Open Sans', sans-serif ;
+        color: brown;
+    }
+    .photo6{
+        display: flex;
+        
+        justify-content: center;
+     padding: 15px;
+     grid-gap:10px;
+     
+    }
+     /* <!-- section7.......................................................................section7--> */
+
+.blog{
+    text-align: center;
+    margin-top: 40px;
+    font-family:'Open Sans', sans-serif ;
+    background-color: rgb(59, 49, 49);
+    clip-path: polygon(0 2%, 100% 0, 100% 100%, 64% 92%, 0 100%, 0% 50%);
+}
+.blog2 {
+    display: flex;
+    justify-content: center;
+    grid-gap:1px;
+    margin-top: 80px;
+    
+     }
+     .ourblog{
+         color: white;
+     }
+     #b1{
+         color: rgb(35, 204, 226);
+     }
+     .kris{
+         border: solid 5px white;
+         margin-bottom: 20px;
+         
+     }
+     .krish1{
+        border: solid 5px white;
+        margin-bottom: 20px;
+     }
+     .krish2{
+        border: solid 5px white;
+        margin-bottom: 20px;
+     }
+     #im{
+         margin-top: 10px;
+     }
+     p{
+         color: rgb(42, 53, 52);
+     }
+      /* <!-- section8.......................................................................section8--> */
+      .us{
+          text-align: center;
+          font-family:'Open Sans', sans-serif ;
+      }
+      #logo8{
+          display: flex;
+          margin-left: 48%;
+          margin-top: 30px;
+      }
+      #call{
+          margin-right: 2%;
+      }
+      #call1{
+          margin-right: 5%;
+      }
+      #vas{
+          color: white;
+      }
